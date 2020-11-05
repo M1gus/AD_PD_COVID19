@@ -1,0 +1,98 @@
+---
+title: "Project 23302M"
+author: "Miguel"
+date: "01 October 2019"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+---
+<br>
+RNA prepared from whole flies, 3 day-old males
+<br>
+
+# Sample IDs {#link2}
+
+| Id code  | RIN      | File name |
+| -------- | -------- | -------- |
+|  Cont1  |  6.18  |  023.CEL  |
+|  Cont2  |  4.56  |  022.CEL  |
+|  Spl1  |  3.4343  |  034.CEL  |
+|  Spl2  |  5.545  |  023.CEL  |
+
+# Script to load the data and perform QC
+```
+library(oligo)
+list = list.files(full.names=TRUE)
+data = oligo::read.celfiles(list)
+ph = data@phenoData
+ph
+ph$sample
+ph$data
+feat = data@featureData
+feat
+feat@data
+
+ph@data[ ,1] = c("daGal4_01","daGal4_Dif_RNAi_01","pink1_daGal4_Relish_RNAi_01","daGal4_02","daGal4_Dif_RNAi_02",
+                 "pink1_daGal4_Relish_RNAi_02","daGal4_03","daGal4_Dif_RNAi_03","pink1_daGal4_Relish_RNAi_03",
+                 "daGal4_04","daGal4_Dif_RNAi_04","pink1_daGal4_Relish_RNAi_04","daGal4_Relish_RNAi_01",
+                 "pink1_daGal4_01","pink1_daGal4_Dif_RNAi_01","daGal4_Relish_RNAi_02","pink1_daGal4_02",
+                 "pink1_daGal4_Dif_RNAi_02","daGal4_Relish_RNAi_03","pink1_daGal4_03","pink1_daGal4_Dif_RNAi_03",
+                 "daGal4_Relish_RNAi_04","pink1_daGal4_04","pink1_daGal4_Dif_RNAi_04")
+ph
+```
+
+## Header 2
+text after header 2
+
+[text of link](https://rpubs.com/mesopinions/534239)
+
+### Header 3
+text after header 3
+
+#### Header 4
+text after header 4
+
+back to [sample IDs](#link2)
+
+
+bold text **here**  
+italic text *here*  
+superscript text ^here^  
+subscript text ~here~  
+code text `here`  
+strikethrough text ~~here~~
+
+Reference number one [^1]
+
+[^1]: This is reference number 1
+
+# Lists
+1. Item 1
+    a. Sub item after 4 spaces
+    b. Sub item 2
+2. Item 2
+3. Item 3
+
+* Item 1
+* Item 2
+* Item 3
+
+<!-- do not show this on the report -->
+
+# Images
+![Caption for image](img/SPA.png)
+
+# Tables
+
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+|  Item 1  |  Item 2  |  Item 3  |
+
+# Blocks
+
+```
+print("Hello world"")
+x = 1 + 2
+```
