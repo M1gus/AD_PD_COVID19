@@ -17,10 +17,10 @@ This study was first deposited in a preprint server (medRxiv) under the title "A
 
 Here, I will first extract the UK Biobank data, from all >500,000 people. I will then subset the data from all people who have been tested for COVID-19.
 
-I will first test people who were infected (without information on death). This will allow me to determine what drives infection. <br>
+I will analyse the data of participants who were tested and infected (without information on death). This will allow me to determine what drives infection. <br>
 In this analysis, I will try to include: UK Biobank phenotype and genotype markers (e.g. BMI, smoking status, dementia, etc.), the crowd mobility that they were exposed to, etc. 
 
-I will then look at the adversive outcomes, and how these markers affect lethality.
+I will then look at how these markers affect lethality.
 
 Access to the UK Biobank data is granted under the application 60124.
 
