@@ -13,7 +13,7 @@ https://github.com/M1gus/AD_PD_COVID19
 
 This study was first deposited in a preprint server (medRxiv) under the title **"Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study"**  *Authors: *Yizhou Yu, Marco Travaglio,  Rebeka Popovic, Nuno Santos Leal, L. Miguel Martins*
 
-The preprint version can be found [here](https://www.medrxiv.org/content/10.1101/2020.11.05.20226605v1)
+The preprint version (v01 on medRxiv) can be found [here](https://www.medrxiv.org/content/10.1101/2020.11.05.20226605v1)
 
 
 Here, I will first extract the UK Biobank data, from all >500,000 people. I will then subset the data from all people who have been tested for COVID-19.
