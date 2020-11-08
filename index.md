@@ -11,7 +11,7 @@ Date: November 2020
 The input files for this analysis pipeline are on the master branch of this GitHub page: 
 https://github.com/M1gus/AD_PD_COVID19
 
-This study was first deposited in a preprint server (medRxiv) under the title **"Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study"**  *Authors: *Yizhou Yu, Marco Travaglio,  Rebeka Popovic, Nuno Santos Leal, L. Miguel Martins*
+This study was first deposited in a preprint server (medRxiv) under the title **"Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study"**  Authors: *Yizhou Yu, Marco Travaglio,  Rebeka Popovic, Nuno Santos Leal, L. Miguel Martins*
 
 The preprint version (v01 on medRxiv) can be found [here](https://www.medrxiv.org/content/10.1101/2020.11.05.20226605v1)
 
