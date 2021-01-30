@@ -1,17 +1,25 @@
 # Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study
+<br>
+Marco Travaglio, Yizhou Yu, Rebeka Popovic, Liza Selley, Nuno Santos Leal, and Luis Miguel Martins
+<br>
+MRC Toxicology Unit, University of Cambridge
+<br>
+<br>
+Yizhou Yu, MRC Toxicology Unit, University of
+Cambridge, (yzy21 [at] mrc-tox.cam.ac.uk)
+November 2020
 
-## Author: Yizhou Yu
-### Affiliation: MRC Toxicology, University of Cambridge
+## General information
 
+This study was first deposited in a preprint server (medRxiv) under the title **"Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study"** by *Yizhou Yu, Marco Travaglio,  Rebeka Popovic, Nuno Santos Leal, L. Miguel Martins*
 
-Contact details: yzy21 [at] mrc-tox.cam.ac.uk
+After peer-review, the revised study was published in January 2021 in the journal **Geriatrics**
 
-Date: November 2020
 
 The input files for this analysis pipeline are on the master branch of this GitHub page: 
 https://github.com/M1gus/AD_PD_COVID19
 
-This study was first deposited in a preprint server (medRxiv) under the title **"Alzheimer’s and Parkinson’s diseases predict different COVID-19 outcomes, a UK Biobank study"** by *Yizhou Yu, Marco Travaglio,  Rebeka Popovic, Nuno Santos Leal, L. Miguel Martins*
+
 
 The preprint version (v01 on medRxiv) can be found [here](https://www.medrxiv.org/content/10.1101/2020.11.05.20226605v1)
 
